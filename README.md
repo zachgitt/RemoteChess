@@ -16,3 +16,6 @@ Check you are on 'empire_5G' wifi. Run 'ssh pi' (ssh alias) to logon.
 `sudo python3 raspi-blinka.py`
 `ls /dev/i2c* /dev/spi*` -prints-> `/dev/i2c-1 /dev/spidev0.0 /dev/spidev0.1` -- confirm proper install
 
+# API Documentation
+## Touch Capacitor
+https://circuitpython.readthedocs.io/projects/mpr121/en/latest/index.html

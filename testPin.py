@@ -7,4 +7,4 @@ mpr121 = adafruit_mpr121.MPR121(i2c)
 
 while True:
     if mpr121[0].value:
-        print("Pin 0 touched!")
+        print("Pin 0 touched!" + str(mpr121[0].raw_value))
