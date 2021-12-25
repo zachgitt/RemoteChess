@@ -4,6 +4,9 @@ This is a project to allow 2 players to enjoy chess from a distance. Through sen
 # Running
 Check you are on 'empire_5G' wifi. Run 'ssh pi' (ssh alias) to logon. Use AngryIPScanner to check the raspberrypi hostname is correct.
 
+# Hardware
+The capacitive touch sensor was setup using the [adafruit tutorial](https://learn.adafruit.com/adafruit-mpr121-12-key-capacitive-touch-sensor-breakout-tutorial/overview).
+
 # Install
 
 ## Circuit Python
